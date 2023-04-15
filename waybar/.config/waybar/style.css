@@ -51,17 +51,22 @@ tooltip {
 }
 
 #clock,
-#custom-weather,
 #custom-updates,
+#custom-weather,
 #workspaces,
 #window,
 #pulseaudio,
 #network,
-#backlight,
 #temperature,
 #battery,
 #tray,
-
+#backlight {
+    color: @nord6;
+    background: @nord0;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+}
 
 #clock {
     color: @nord6;
@@ -96,7 +101,6 @@ tooltip {
     margin-right: 60px;
 }
 
-
 #pulseaudio {
     color: @nord6;
     border-left: 0px;
@@ -114,14 +118,6 @@ tooltip {
     color: @nord6;
     border-left: 0px;
     border-right: 0px;
-}
-
-#backlight {
-    color: @nord6;
-    background: @nord0;
-    padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 10px;
 }
 
 #temperature {
