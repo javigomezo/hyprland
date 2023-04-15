@@ -1,0 +1,143 @@
+@import "nord.css";
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Comic Code Ligatures, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #cdd6f4;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: @nord3;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: @nord6;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+    background: #eba0ac;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: #11111b;
+    background: #a6e3a1;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: #11111b;
+    color: #cdd6f4;
+    border-radius: 10px;
+}
+
+#clock,
+#custom-weather,
+#custom-updates,
+#workspaces,
+#window,
+#pulseaudio,
+#network,
+#backlight,
+#temperature,
+#battery,
+#tray,
+
+
+#clock {
+    color: @nord6;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 5px;
+}
+
+#custom-weather {
+    border-radius: 0px 10px 10px 0px;
+    border-right: 0px;
+    margin-left: 0px;
+}
+
+#custom-updates {
+    color: @nord6;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+#workspaces {
+    background: @nord0;
+    border-radius: 10px;
+    margin-left: 7px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+#window {
+    color: @nord9;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+#pulseaudio {
+    color: @nord6;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#pulseaudio.microphone {
+    color: @nord6;
+    margin-right: 5px;
+    border-radius: 0 10px 10px 0;
+}
+
+#network {
+    color: @nord6;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#backlight {
+    color: @nord6;
+    background: @nord0;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 10px;
+}
+
+#temperature {
+    color: @nord14;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+#battery {
+    color: @nord15;
+    border-radius: 0 10px 10px 0;
+    margin-right: 10px;
+    border-left: 0px;
+}
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
