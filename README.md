@@ -21,6 +21,6 @@ TODO
 
 ## Work In Progress
 
-- [ ] Add rest of dotfiles (swaylock, mako, waybar...)
+- [ ] Add the rest of the dotfiles (swaylock, mako, ~~waybar~~...)
 - [ ] Add screenshots
 - [ ] Add how to use section
