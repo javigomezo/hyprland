@@ -1,0 +1,46 @@
+daemonize
+show-failed-attempts
+clock
+screenshot
+effect-blur=9x5
+effect-vignette=0.5:0.5
+font="Comic Code Ligatures"
+indicator
+indicator-radius=200
+indicator-thickness=20
+grace=0
+grace-no-mouse
+grace-no-touch
+datestr=%a, %B %e
+timestr=%I:%M %p
+fade-in=0.2
+ignore-empty-password
+
+# Default Color
+color=1f1d2e80
+line-color=1f1d2e
+ring-color=191724
+inside-color=2e3440
+key-hl-color=b48ead
+separator-color=00000000
+text-color=d8dee9
+
+# Verifiying Color
+line-ver-color=b48ead
+ring-ver-color=b48ead
+inside-ver-color=2e3440
+text-ver-color=b48ead
+
+# Wrong Color
+ring-wrong-color=bf616a
+text-wrong-color=bf616a
+inside-wrong-color=2e3440
+line-wrong-color=bf616a
+
+# Clear Color
+inside-clear-color=2e3440
+text-clear-color=88c0d0
+ring-clear-color=88c0d0
+line-clear-color=88c0d0
+bs-hl-color=88c0d0
+
