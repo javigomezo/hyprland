@@ -1,0 +1,23 @@
+# Import Fonts and colors
+import: 
+  - ~/.config/alacritty/fonts.yml
+  - ~/.config/alacritty/nord-colors.yml
+
+# Enable live config reload (changes require restart)
+live_config_reload: true
+
+# Set env variables
+env:
+  TERM: alacritty
+
+# Set windows settings
+window:
+  padding:
+    x: 10
+    y: 10
+  opacity: 0.82
+
+# Configure scroll
+scrolling:
+  history: 10000
+  multiplier: 3
