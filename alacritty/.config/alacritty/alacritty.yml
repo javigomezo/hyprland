@@ -21,3 +21,10 @@ window:
 scrolling:
   history: 10000
   multiplier: 3
+
+# Configure Cursor
+cursor:
+  style:
+    shape: Block
+    blinking: Off
+  unfocussed_hollow: false
