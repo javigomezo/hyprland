@@ -10,6 +10,9 @@ if wezterm.config_builder then
   config = wezterm.config_builder()
 end
 
+-- Enable Wayland
+config.enable_wayland = true
+
 -- Set Nord color scheme
 config.color_scheme = 'nord'
 
