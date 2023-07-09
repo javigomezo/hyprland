@@ -26,6 +26,9 @@ config.font = wezterm.font_with_fallback {
   'CartographCF Nerd Font'
 }
 
+-- Opacity
+config.window_background_opacity = 0.82
+
 -- and finally, return the configuration to wezterm
 return config
 
