@@ -29,6 +29,19 @@ config.font = wezterm.font_with_fallback {
 -- Opacity
 config.window_background_opacity = 0.82
 
+-- Skip confirmation
+config.skip_close_confirmation_for_processes_named = {
+  'bash',
+  'sh',
+  'zsh',
+  'htop',
+  'tmux',
+  'nu',
+  'watch',
+  'ssh',
+}
+
+
 -- and finally, return the configuration to wezterm
 return config
 
