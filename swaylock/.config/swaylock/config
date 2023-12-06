@@ -12,7 +12,8 @@ grace=0
 grace-no-mouse
 grace-no-touch
 datestr=%a, %B %e
-timestr=%I:%M %p
+#timestr=%I:%M %p
+timestr=%H:%M
 fade-in=0.2
 ignore-empty-password
 

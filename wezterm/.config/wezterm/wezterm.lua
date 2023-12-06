@@ -11,7 +11,7 @@ if wezterm.config_builder then
 end
 
 -- Enable Wayland
-config.enable_wayland = true
+config.enable_wayland = false
 
 -- Set Nord color scheme
 config.color_scheme = 'nord'
@@ -45,4 +45,3 @@ config.skip_close_confirmation_for_processes_named = {
 
 -- and finally, return the configuration to wezterm
 return config
-
