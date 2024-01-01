@@ -11,6 +11,7 @@ if wezterm.config_builder then
 end
 
 -- Enable Wayland
+-- config.prefer_egl = 'wayland-egl'
 config.enable_wayland = false
 
 -- Set Nord color scheme

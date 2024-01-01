@@ -39,24 +39,22 @@
     },
 
   "hyprland/workspaces": {
-	"disable-scroll": true,
-        "on-click": "activate",
-	"all-outputs": true,
-	"persistent_workspaces": {
-    "1": [],
-    "2": [],
-    "3": [],
-    "4": []
-	},
-  "format": "{icon}",
-        "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
-        },
-        "sort-by-number": true
-     },
+	  "disable-scroll": true,
+          "on-click": "activate",
+	  "all-outputs": true,
+	  "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": []
+	  },
+    "format": "{icon}",
+    "format-icons": {
+        "default": "",
+        "focused": "",
+        "urgent": ""
+    }
+  },
 
     //Center modules
     "hyprland/window": {
